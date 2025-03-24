@@ -1,0 +1,409 @@
+[
+	{
+		"name": "action",
+		"alt_names": ["action game"]
+	},
+	{
+		"name": "platform",
+		"alt_names": ["platformer", "climbing game"]
+	},
+	{
+		"name": "shooter",
+		"alt_names": []
+	},
+	{
+		"name": "fighting",
+		"alt_names": ["combat", "fighting game", "punch-kick"]
+	},
+	{
+		"name": "FPS",
+		"alt_names": ["first-person shooters"]
+	},
+	{
+		"name": "TPS",
+		"alt_names": ["third-person shooters"]
+	},
+	{
+		"name": "hero shooter",
+		"alt_names": []
+	},
+	{
+		"name": "MOBA",
+		"alt_names": []
+	},
+	{
+		"name": "STG",
+		"alt_names": ["shmup", "shoot 'em up"]
+	},
+	{
+		"name": "beat 'em up",
+		"alt_names": ["brawler"]
+	},
+	{
+		"name": "stealth",
+		"alt_names": []
+	},
+	{
+		"name": "survival",
+		"alt_names": []
+	},
+	{
+		"name": "survival horror",
+		"alt_names": []
+	},
+	{
+		"name": "rhythm",
+		"alt_names": ["rhythm game", "rhythm action"]
+	},
+	{
+		"name": "battle royale",
+		"alt_names": []
+	},
+	{
+		"name": "action-adventure",
+		"alt_names": []
+	},
+	{
+		"name": "metroidvania",
+		"alt_names": []
+	},
+	{
+		"name": "adventure",
+		"alt_names": ["graphic adventure"]
+	},
+	{
+		"name": "text adventures",
+		"alt_names": ["interactive fiction"]
+	},
+	{
+		"name": "point-and-click",
+		"alt_names": []
+	},
+	{
+		"name": "visual novel",
+		"alt_names": []
+	},
+	{
+		"name": "interactive movie",
+		"alt_names": []
+	},
+	{
+		"name": "real-time 3D adventure",
+		"alt_names": []
+	},
+	{
+		"name": "puzzle",
+		"alt_names": []
+	},
+	{
+		"name": "casual",
+		"alt_names": []
+	},
+	{
+		"name": "tile-matching",
+		"alt_names": ["tile-matching puzzle"]
+	},
+	{
+		"name": "breakout clone",
+		"alt_names": ["block-breaking", "ball-and-paddle"]
+	},
+	{
+		"name": "logical",
+		"alt_names": ["logical puzzle"]
+	},
+	{
+		"name": "physics",
+		"alt_names": ["physics puzzle"]
+	},
+	{
+		"name": "programming",
+		"alt_names": ["programming game"]
+	},
+	{
+		"name": "puzzle-platform",
+		"alt_names": []
+	},
+	{
+		"name": "arcade",
+		"alt_names": []
+	},
+	{
+		"name": "trial-and-error",
+		"alt_names": ["exploration"]
+	},
+	{
+		"name": "escape room",
+		"alt_names": []
+	},
+	{
+		"name": "hidden object",
+		"alt_names": ["hidden picture", "hidden object puzzle adventure", "HOPA"]
+	},
+	{
+		"name": "reveal the picture",
+		"alt_names": []
+	},
+	{
+		"name": "tile-based",
+		"alt_names": []
+	},
+	{
+		"name": "traditional puzzle",
+		"alt_names": []
+	},
+	{
+		"name": "RPG",
+		"alt_names": ["role-playing game"]
+	},
+	{
+		"name": "turn-based",
+		"alt_names": []
+	},
+	{
+		"name": "strategy",
+		"alt_names": []
+	},
+	{
+		"name": "ARPG",
+		"alt_names": ["Action RPG", "action role-playing game"]
+	},
+	{
+		"name": "CRPG",
+		"alt_names": ["computer RPG", "computer role-playing game"]
+	},
+	{
+		"name": "tabletop",
+		"alt_names": ["tabletop RPG", "tabletop role-playing game", "tabletop game"]
+	},
+	{
+		"name": "MMORPG",
+		"alt_names": ["massively multiplayer online role-playing game"]
+	},
+	{
+		"name": "MUD",
+		"alt_names": ["multi-user dungeon", "multi-user dimension", "multi-user domain"]
+	},
+	{
+		"name": "roguelike",
+		"alt_names": []
+	},
+	{
+		"name": "tactical",
+		"alt_names": []
+	},
+	{
+		"name": "tactical RPG",
+		"alt_names": ["strategy role-playing game", "strategy RPG", "simulation RPG", "simulator role-playing game"]
+	},
+	{
+		"name": "sandbox",
+		"alt_names": []
+	},
+	{
+		"name": "sandbox RPG",
+		"alt_names": ["sandbox role-playing game", "open world RPG", "open world role-playing game"]
+	},
+	{
+		"name": "open world",
+		"alt_names": []
+	},
+	{
+		"name": "DRPG",
+		"alt_names": ["dungeon RPG", "first-person party-based RPG", "blobber"]
+	},
+	{
+		"name": "monster tamer",
+		"alt_names": []
+	},
+	{
+		"name": "simulator",
+		"alt_names": ["simulation"]
+	},
+	{
+		"name": "CMS",
+		"alt_names": ["construction and management simulation", "management sim", "construction sim", "building sim"]
+	},
+	{
+		"name": "city-building game",
+		"alt_names": ["town-building game", "city builder"]
+	},
+	{
+		"name": "government simulation game",
+		"alt_names": ["political game", "political simulation"]
+	},
+	{
+		"name": "life simulation",
+		"alt_names": ["artificial life game", "god game", "god simulator"]
+	},
+	{
+		"name": "pet-raising simulation",
+		"alt_names": ["virtual pet", "digital pet"]
+	},
+	{
+		"name": "social simulation game",
+		"alt_names": ["dating sims", "dating simulation game"]
+	},
+	{
+		"name": "vehicle simulation",
+		"alt_names": []
+	},
+	{
+		"name": "flight simulation",
+		"alt_names": ["Combat flight simulator"]
+	},
+	{
+		"name": "racing",
+		"alt_names": []
+	},
+	{
+		"name": "Space flight simulator game",
+		"alt_names": []
+	},
+	{
+		"name": "train simulator",
+		"alt_names": []
+	},
+	{
+		"name": "vehicular combat",
+		"alt_names": ["car combat"]
+	},
+	{
+		"name": "4X",
+		"alt_names": ["4X strategy"]
+	},
+	{
+		"name": "artillery",
+		"alt_names": []
+	},
+	{
+		"name": "auto battler",
+		"alt_names": ["auto chess"]
+	},
+	{
+		"name": "RTS",
+		"alt_names": ["real-time strategy"]
+	},
+	{
+		"name": "RTT",
+		"alt_names": ["real-time tactics", "fixed-unit real-time strategy"]
+	},
+	{
+		"name": "TD",
+		"alt_names": ["tower defence"]
+	},
+	{
+		"name": "TBS",
+		"alt_names": ["turn-based strategy"]
+	},
+	{
+		"name": "TBT",
+		"alt_names": ["turn-based tactics"]
+	},
+	{
+		"name": "wargame",
+		"alt_names": []
+	},
+	{
+		"name": "sports",
+		"alt_names": ["sport"]
+	},
+	{
+		"name": "competitive",
+		"alt_names": []
+	},
+	{
+		"name": "sports-based fighting",
+		"alt_names": []
+	},
+	{
+		"name": "MMO",
+		"alt_names": ["massively multiplayer online game", "MMOG"]
+	},
+	{
+		"name": "MMOFPS",
+		"alt_names": ["massively multiplayer online first-person shooter"]
+	},
+	{
+		"name": "MMORTS",
+		"alt_names": ["massively multiplayer online real-time strategy game"]
+	},
+	{
+		"name": "MMOTBS",
+		"alt_names": ["massively multiplayer online turn-based strategy games"]
+	},
+	{
+		"name": "card game",
+		"alt_names": ["board game"]
+	},
+	{
+		"name": "parental sim",
+		"alt_names": []
+	},
+	{
+		"name": "casino game",
+		"alt_names": []
+	},
+	{
+		"name": "DCCG",
+		"alt_names": ["digital collectible card game", "CCG", "TCG", "collectible card game", "trading card game"]
+	},
+	{
+		"name": "gacha",
+		"alt_names": []
+	},
+	{
+		"name": "horror",
+		"alt_names": []
+	},
+	{
+		"name": "idle",
+		"alt_names": ["incremental game", "clicker", "tap game"]
+	},
+	{
+		"name": "party",
+		"alt_names": ["party game"]
+	},
+	{
+		"name": "photography",
+		"alt_names": ["photography game"]
+	},
+	{
+		"name": "social deduction",
+		"alt_names": ["social deduction game"]
+	},
+	{
+		"name": "trivia",
+		"alt_names": ["trivia game"]
+	},
+	{
+		"name": "typing",
+		"alt_names": ["typing game"]
+	},
+	{
+		"name": "art",
+		"alt_names": ["art game"]
+	},
+	{
+		"name": "christian",
+		"alt_names": ["christian game"]
+	},
+	{
+		"name": "educational",
+		"alt_names": ["educational game"]
+	},
+	{
+		"name": "esports",
+		"alt_names": ["esport"]
+	},
+	{
+		"name": "exergame",
+		"alt_names": ["fitness", "fitness game", "gamercise"]
+	},
+	{
+		"name": "serious game",
+		"alt_names": ["applied game"]
+	}
+
+
+	// TODO - also create a file with similarities between genres from 0 to 1 where 0 is the closest = the same genre and 1 is very far = completely different
+]
