@@ -29,11 +29,11 @@
 	},
 	{
 		"name": "MOBA",
-		"alt_names": []
+		"alt_names": ["multiplayer online battle arena"]
 	},
 	{
 		"name": "STG",
-		"alt_names": ["shmup", "shoot 'em up"]
+		"alt_names": ["shmup", "shoot 'em up", "top-down shooter"]
 	},
 	{
 		"name": "beat 'em up",
@@ -41,11 +41,11 @@
 	},
 	{
 		"name": "stealth",
-		"alt_names": []
+		"alt_names": ["stealth game"]
 	},
 	{
 		"name": "survival",
-		"alt_names": []
+		"alt_names": ["survival game"]
 	},
 	{
 		"name": "survival horror",
@@ -53,15 +53,15 @@
 	},
 	{
 		"name": "rhythm",
-		"alt_names": ["rhythm game", "rhythm action"]
+		"alt_names": ["rhythm game", "rhythm action", "music video game", "music game"]
 	},
 	{
 		"name": "battle royale",
-		"alt_names": []
+		"alt_names": ["battle royale game"]
 	},
 	{
 		"name": "action-adventure",
-		"alt_names": []
+		"alt_names": ["action-adventure game"]
 	},
 	{
 		"name": "metroidvania",
@@ -69,7 +69,7 @@
 	},
 	{
 		"name": "adventure",
-		"alt_names": ["graphic adventure"]
+		"alt_names": ["graphic adventure", "adventure game"]
 	},
 	{
 		"name": "text adventures",
@@ -81,11 +81,11 @@
 	},
 	{
 		"name": "visual novel",
-		"alt_names": []
+		"alt_names": ["VN"]
 	},
 	{
 		"name": "interactive movie",
-		"alt_names": []
+		"alt_names": ["interactive film"]
 	},
 	{
 		"name": "real-time 3D adventure",
@@ -93,7 +93,7 @@
 	},
 	{
 		"name": "puzzle",
-		"alt_names": []
+		"alt_names": ["puzzle video game"]
 	},
 	{
 		"name": "casual",
@@ -133,7 +133,7 @@
 	},
 	{
 		"name": "escape room",
-		"alt_names": []
+		"alt_names": ["escape room video game", "escape the room", "room escape", "escape game"]
 	},
 	{
 		"name": "hidden object",
@@ -197,7 +197,7 @@
 	},
 	{
 		"name": "sandbox",
-		"alt_names": []
+		"alt_names": ["sandbox game"]
 	},
 	{
 		"name": "sandbox RPG",
@@ -209,15 +209,15 @@
 	},
 	{
 		"name": "DRPG",
-		"alt_names": ["dungeon RPG", "first-person party-based RPG", "blobber"]
+		"alt_names": ["dungeon RPG", "first-person party-based RPG", "blobber", "dungeon crawl"]
 	},
 	{
 		"name": "monster tamer",
-		"alt_names": []
+		"alt_names": ["monster-taming game"]
 	},
 	{
 		"name": "simulator",
-		"alt_names": ["simulation"]
+		"alt_names": ["simulation", "simulation video game"]
 	},
 	{
 		"name": "CMS",
@@ -241,22 +241,22 @@
 	},
 	{
 		"name": "social simulation game",
-		"alt_names": ["dating sims", "dating simulation game"]
+		"alt_names": ["dating sim", "dating simulation game"]
 	},
 	{
 		"name": "vehicle simulation",
-		"alt_names": []
+		"alt_names": ["sim racing"]
 	},
 	{
 		"name": "flight simulation",
-		"alt_names": ["Combat flight simulator"]
+		"alt_names": ["combat flight simulator"]
 	},
 	{
 		"name": "racing",
 		"alt_names": []
 	},
 	{
-		"name": "Space flight simulator game",
+		"name": "space flight simulator game",
 		"alt_names": []
 	},
 	{
@@ -273,7 +273,7 @@
 	},
 	{
 		"name": "artillery",
-		"alt_names": []
+		"alt_names": ["artillery game"]
 	},
 	{
 		"name": "auto battler",
@@ -301,7 +301,7 @@
 	},
 	{
 		"name": "wargame",
-		"alt_names": []
+		"alt_names": ["computer wargame"]
 	},
 	{
 		"name": "sports",
@@ -361,11 +361,11 @@
 	},
 	{
 		"name": "party",
-		"alt_names": ["party game"]
+		"alt_names": ["party game", "party video game"]
 	},
 	{
 		"name": "photography",
-		"alt_names": ["photography game"]
+		"alt_names": ["photography game", "photography video game"]
 	},
 	{
 		"name": "social deduction",
@@ -402,8 +402,155 @@
 	{
 		"name": "serious game",
 		"alt_names": ["applied game"]
+	},
+	{
+		"name": "arena shooter",
+		"alt_names": ["arena"]
+	},
+	{
+		"name": "bishōjo",
+		"alt_names": ["bishojo", "bishojo game", "bishōjo game", "gal game"]
+	},
+	{
+		"name": "blockchain",
+		"alt_names": ["blockchain game"]
+	},
+	{
+		"name": "bullet hell",
+		"alt_names": ["manic shooter"]
+	},
+	{
+		"name": "tycoon",
+		"alt_names": ["business simulation", "business simulation game", "tycoon game", "economic simulation game"]
+	},
+	{
+		"name": "cozy",
+		"alt_names": ["cozy game"]
+	},
+	{
+		"name": "digital tabletop",
+		"alt_names": ["digital tabletop game"]
+	},
+	{
+		"name": "endless runner",
+		"alt_names": ["infinite runner"]
+	},
+	{
+		"name": "eroge",
+		"alt_names": ["h-game"]
+	},
+	{
+		"name": "falling-sand",
+		"alt_names": ["falling-sand game"]
+	},
+	{
+		"name": "falling-sand",
+		"alt_names": ["falling-sand game"]
+	},
+	{
+		"name": "farm life",
+		"alt_names": ["farm life sim"]
+	},
+	{
+		"name": "fishing",
+		"alt_names": ["fishing video game"]
+	},
+	{
+		"name": "Girls' video games",
+		"alt_names": []
+	},
+	{
+		"name": "Girls' video games",
+		"alt_names": []
+	},
+	{
+		"name": "GSG",
+		"alt_names": ["grand strategy game", "grand strategy wargame"]
+	},
+	{
+		"name": "hack and slash",
+		"alt_names": ["hack and slay", "slash 'em up"]
+	},
+	{
+		"name": "hypercasual",
+		"alt_names": ["hypercasual game"]
+	},
+	{
+		"name": "immersive sim",
+		"alt_names": ["immersive", "immersive simulation"]
+	},
+	{
+		"name": "kart racing game",
+		"alt_names": ["cart racing game", "go-kart racing game"]
+	},
+	{
+		"name": "looter shooter",
+		"alt_names": []
+	},
+	{
+		"name": "hardcore",
+		"alt_names": ["masocore"]
+	},
+	{
+		"name": "newsgame",
+		"alt_names": []
+	},
+	{
+		"name": "otome",
+		"alt_names": []
+	},
+	{
+		"name": "pinball",
+		"alt_names": ["pinball video game"]
+	},
+	{
+		"name": "platform fighter",
+		"alt_names": []
+	},
+	{
+		"name": "rail shooter",
+		"alt_names": ["on-rails shooter"]
+	},
+	{
+		"name": "roguelike deck-building game",
+		"alt_names": []
+	},
+	{
+		"name": "roguelike deck-building game",
+		"alt_names": []
+	},
+	{
+		"name": "soulslike",
+		"alt_names": []
+	},
+	{
+		"name": "tactical shooter",
+		"alt_names": []
+	},
+	{
+		"name": "time management",
+		"alt_names": ["time management game"]
+	},
+	{
+		"name": "side-scroller",
+		"alt_names": ["side-scrolling video game"]
+	},
+	{
+		"name": "turn-based MMORPG",
+		"alt_names": []
+	},
+	{
+		"name": "twin-stick shooter",
+		"alt_names": []
+	},
+	{
+		"name": "vertical scroller",
+		"alt_names": ["vertically scrolling video game"]
+	},
+	{
+		"name": "walking sim",
+		"alt_names": ["walking simulator"]
 	}
-
 
 	// TODO - also create a file with similarities between genres from 0 to 1 where 0 is the closest = the same genre and 1 is very far = completely different
 ]
