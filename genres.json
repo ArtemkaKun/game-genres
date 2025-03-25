@@ -9,7 +9,7 @@
 	},
 	{
 		"name": "shooter",
-		"alt_names": []
+		"alt_names": ["shooting"]
 	},
 	{
 		"name": "fighting",
@@ -101,7 +101,7 @@
 	},
 	{
 		"name": "tile-matching",
-		"alt_names": ["tile-matching puzzle"]
+		"alt_names": ["tile-matching puzzle", "matching puzzle"]
 	},
 	{
 		"name": "breakout clone",
@@ -153,7 +153,7 @@
 	},
 	{
 		"name": "RPG",
-		"alt_names": ["role-playing game"]
+		"alt_names": ["role-playing game", "WRPG"]
 	},
 	{
 		"name": "turn-based",
@@ -193,7 +193,7 @@
 	},
 	{
 		"name": "tactical RPG",
-		"alt_names": ["strategy role-playing game", "strategy RPG", "simulation RPG", "simulator role-playing game"]
+		"alt_names": ["strategy role-playing game", "strategy RPG", "simulation RPG", "simulator role-playing game", "SRPG"]
 	},
 	{
 		"name": "sandbox",
@@ -213,11 +213,11 @@
 	},
 	{
 		"name": "monster tamer",
-		"alt_names": ["monster-taming game"]
+		"alt_names": ["monster-taming game", "monster collecting"]
 	},
 	{
 		"name": "simulator",
-		"alt_names": ["simulation", "simulation video game"]
+		"alt_names": ["simulation", "simulation video game", "sim"]
 	},
 	{
 		"name": "CMS",
@@ -237,7 +237,7 @@
 	},
 	{
 		"name": "pet-raising simulation",
-		"alt_names": ["virtual pet", "digital pet"]
+		"alt_names": ["virtual pet", "digital pet", "raising sim"]
 	},
 	{
 		"name": "social simulation game",
@@ -249,7 +249,7 @@
 	},
 	{
 		"name": "flight simulation",
-		"alt_names": ["combat flight simulator"]
+		"alt_names": ["combat flight simulator", "air Combat"]
 	},
 	{
 		"name": "racing",
@@ -313,7 +313,7 @@
 	},
 	{
 		"name": "sports-based fighting",
-		"alt_names": []
+		"alt_names": ["pro wrestling"]
 	},
 	{
 		"name": "MMO",
@@ -389,7 +389,7 @@
 	},
 	{
 		"name": "educational",
-		"alt_names": ["educational game"]
+		"alt_names": ["educational game", "edutainment"]
 	},
 	{
 		"name": "esports",
@@ -461,11 +461,11 @@
 	},
 	{
 		"name": "GSG",
-		"alt_names": ["grand strategy game", "grand strategy wargame"]
+		"alt_names": ["grand strategy game", "grand strategy wargame", "grand strategy"]
 	},
 	{
 		"name": "hack and slash",
-		"alt_names": ["hack and slay", "slash 'em up"]
+		"alt_names": ["hack and slay", "slash 'em up", "hack-n-slash"]
 	},
 	{
 		"name": "hypercasual",
@@ -501,7 +501,7 @@
 	},
 	{
 		"name": "platform fighter",
-		"alt_names": []
+		"alt_names": ["arena brawler"]
 	},
 	{
 		"name": "rail shooter",
@@ -573,6 +573,46 @@
 	},
 	{
 		"name": "word construction",
+		"alt_names": []
+	},
+	{
+		"name": "arena combat",
+		"alt_names": []
+	},
+	{
+		"name": "collect-a-thon platform",
+		"alt_names": []
+	},
+	{
+		"name": "combat",
+		"alt_names": ["combat game"]
+	},
+	{
+		"name": "kusoge",
+		"alt_names": []
+	},
+	{
+		"name": "light gun",
+		"alt_names": []
+	},
+	{
+		"name": "maze",
+		"alt_names": []
+	},
+	{
+		"name": "mech combat",
+		"alt_names": ["mech"]
+	},
+	{
+		"name": "military",
+		"alt_names": ["military sim"]
+	},
+	{
+		"name": "musou",
+		"alt_names": []
+	},
+	{
+		"name": "run-n-gun",
 		"alt_names": []
 	}
 
