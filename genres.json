@@ -73,7 +73,7 @@
 	},
 	{
 		"name": "text adventures",
-		"alt_names": ["interactive fiction"]
+		"alt_names": ["interactive fiction", "interactive book"]
 	},
 	{
 		"name": "point-and-click",
@@ -253,7 +253,7 @@
 	},
 	{
 		"name": "racing",
-		"alt_names": []
+		"alt_names": ["driving"]
 	},
 	{
 		"name": "space flight simulator game",
@@ -341,7 +341,7 @@
 	},
 	{
 		"name": "casino game",
-		"alt_names": []
+		"alt_names": ["gambling"]
 	},
 	{
 		"name": "DCCG",
@@ -373,7 +373,7 @@
 	},
 	{
 		"name": "trivia",
-		"alt_names": ["trivia game"]
+		"alt_names": ["trivia game", "quiz"]
 	},
 	{
 		"name": "typing",
@@ -441,11 +441,7 @@
 	},
 	{
 		"name": "falling-sand",
-		"alt_names": ["falling-sand game"]
-	},
-	{
-		"name": "falling-sand",
-		"alt_names": ["falling-sand game"]
+		"alt_names": ["falling-sand game", "falling block puzzle "]
 	},
 	{
 		"name": "farm life",
@@ -550,6 +546,34 @@
 	{
 		"name": "walking sim",
 		"alt_names": ["walking simulator"]
+	},
+	{
+		"name": "chess",
+		"alt_names": []
+	},
+	{
+		"name": "hunting",
+		"alt_names": []
+	},
+	{
+		"name": "JRPG",
+		"alt_names": ["japanese-style RPG", "japanese RPG"]
+	},
+	{
+		"name": "japanese-style adventure",
+		"alt_names": []
+	},
+	{
+		"name": "mini-game",
+		"alt_names": []
+	},
+	{
+		"name": "paddle",
+		"alt_names": ["pong"]
+	},
+	{
+		"name": "word construction",
+		"alt_names": []
 	}
 
 	// TODO - also create a file with similarities between genres from 0 to 1 where 0 is the closest = the same genre and 1 is very far = completely different
