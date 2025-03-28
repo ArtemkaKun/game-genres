@@ -9,13 +9,15 @@ permissions:
 
 env:
     REGISTRY: "ghcr.io"
-    IMAGE_NAME: "articola-tools/dockerfile-security-scanner"
 
 jobs:
     find-changed-files:
         runs-on: "ubuntu-latest"
         outputs:
             is_yaml_changed: "${{ steps.filter.outputs.yaml }}"
+            is_dockerfile_changed: "${{ steps.filter.outputs.dockerfile }}"
+            is_content_validator_image_changed: "${{ steps.filter.outputs.content-validator-image }}"
+            is_go_changed: "${{ steps.filter.outputs.go }}"
             is_markdown_changed: "${{ steps.filter.outputs.markdown }}"
             is_json_changed: "${{ steps.filter.outputs.json }}"
             changed_or_added_files: "${{ steps.filter.outputs.changed-or-added-files }}"
@@ -38,12 +40,73 @@ jobs:
                       yaml:
                       - "**/*.yaml"
                       - "**/*.yml"
+                      dockerfile:
+                      - "**/Dockerfile"
+                      content-validator-image:
+                      - "**/content_validator/Dockerfile"
+                      - "**/content_validator/.dockerignore"
+                      - "**/content_validator/*.go"
+                      go:
+                      - "**/*.go"
                       markdown:
                       - "**/*.md"
                       json:
                       - "**/*.json"
                       changed-or-added-files:
                       - added|modified: '**'
+
+    validate-content-validator-image:
+        runs-on: "ubuntu-latest"
+        needs: "find-changed-files"
+        if: "${{ needs.find-changed-files.outputs.is_content_validator_image_changed == 'true' }}"
+
+        # NOTE: building and running Docker image of content validator take around 1 minute.
+        # If this job takes more than 5 minutes, it means that something is wrong.
+        timeout-minutes: 5
+        steps:
+            - name: "Checkout ${{ github.event.repository.name }}"
+              uses: "actions/checkout@v4"
+
+            - name: "Set up Docker Buildx"
+              uses: "docker/setup-buildx-action@v3"
+
+            - name: "Login to Docker registry"
+              uses: "docker/login-action@v3"
+              with:
+                  registry: "${{ env.REGISTRY }}"
+                  username: "${{ github.actor }}"
+                  password: "${{ secrets.GITHUB_TOKEN }}"
+
+            - name: "Build content validator Docker image"
+              uses: "docker/build-push-action@v6"
+              with:
+                  push: false
+                  load: true
+
+                  # NOTE: using another name to don't allow docker to download image from the internet in the next step.
+                  tags: "local/content-validator-pr:latest"
+                  cache-from: "type=registry,ref=${{ env.REGISTRY }}/game-genres/content-validator:latest"
+                  cache-to: "type=inline"
+
+            - name: "Check correct content"
+              run: |
+                  cd ${{ github.workspace }}/content_validator/tests
+
+                  docker run --rm -v ./:/content local/content-validator-pr:latest /content/correct_content.json
+
+            - name: "Check incorrect content"
+              run: |
+                  cd ${{ github.workspace }}/content_validator/tests
+
+                  if docker run --rm -v ./:/content local/content-validator-pr:latest /content/incorrect_content.json; then
+                  echo "Validation unexpectedly succeeded incorrect content!" >&2
+                  exit 1
+                  fi
+
+            - name: "Run Dockerfile security scanner"
+              run: "docker run --rm --group-add $(getent group docker | cut -d: -f3)
+                    -v /var/run/docker.sock:/var/run/docker.sock
+                    ghcr.io/articola-tools/dockerfile-security-scanner local/content-validator-pr:latest"
 
     validate-yaml-changes:
         runs-on: "ubuntu-latest"
@@ -67,6 +130,63 @@ jobs:
             - name: "Run YAML linter"
               run: "docker run --rm -v ${{ github.workspace }}:/linter_workdir/repo
                     ${{ env.REGISTRY }}/articola-tools/yaml-linter:latest"
+
+    validate-dockerfile-changes:
+        runs-on: "ubuntu-latest"
+        needs: "find-changed-files"
+        if: "${{ needs.find-changed-files.outputs.is_dockerfile_changed == 'true' }}"
+
+        # NOTE: validating Dockerfile changes takes around 1 minute.
+        # If this job takes more than 5 minutes, it means that something is wrong.
+        timeout-minutes: 5
+        steps:
+            - name: "Checkout ${{ github.event.repository.name }}"
+              uses: "actions/checkout@v4"
+
+            - name: "Login to Docker registry"
+              uses: "docker/login-action@v3"
+              with:
+                  registry: "${{ env.REGISTRY }}"
+                  username: "${{ github.actor }}"
+                  password: "${{ secrets.GITHUB_TOKEN }}"
+
+            - name: "Run Dockerfile linter"
+              run: "docker run --rm -v ${{ github.workspace }}:/linter_workdir/repo
+                    ${{ env.REGISTRY }}/articola-tools/dockerfile-linter:latest"
+
+    validate-go-changes:
+        runs-on: "ubuntu-latest"
+        needs: "find-changed-files"
+        if: "${{ needs.find-changed-files.outputs.is_go_changed == 'true' }}"
+
+        # NOTE: validating Go changes takes around 1 minute.
+        # If this job takes more than 5 minutes, it means that something is wrong.
+        timeout-minutes: 5
+        steps:
+            - name: "Checkout ${{ github.event.repository.name }}"
+              uses: "actions/checkout@v4"
+
+            - name: "Build content_validator code"
+              run: | 
+                  cd ${{ github.workspace }}/content_validator
+                  go build -ldflags \"-s -w\" -o content_validator ./cmd/content_validator/
+
+            - name: "Run content_validator unit tests"
+              run: |
+                  cd ${{ github.workspace }}/content_validator
+                  go test ./...
+
+            - name: "Login to Docker registry"
+              uses: "docker/login-action@v3"
+              with:
+                  registry: "${{ env.REGISTRY }}"
+                  username: "${{ github.actor }}"
+                  password: "${{ secrets.GITHUB_TOKEN }}"
+
+            - name: "Run linter on content_validator"
+              run: |
+                  cd ${{ github.workspace }}/content_validator
+                  docker run --rm -v ./:/linter_workdir ${{ env.REGISTRY }}/articola-tools/go-linter:latest
 
     validate-markdown-changes:
         runs-on: "ubuntu-latest"
@@ -134,3 +254,31 @@ jobs:
                   --naming-convention snake_case --path-to-validate "$path";
                   fi
                   done
+
+    validate-genres-changes:
+        runs-on: "ubuntu-latest"
+        needs: "find-changed-files"
+
+        # NOTE: do not run this job when `is_content_validator_image_changed` is true, because this job validates genres.json
+        # changes with the latest released content-validator image, and new changes in content-validator image can introduce
+        # false positives for this job (since changes in content-validator can change genres rules).
+        if: "${{ needs.find-changed-files.outputs.is_json_changed == 'true'
+             && needs.find-changed-files.outputs.is_content_validator_image_changed == 'false' }}"
+
+        # NOTE: validating genres.json changes takes around 1 minute.
+        # If this job takes more than 5 minutes, it means that something is wrong.
+        timeout-minutes: 5
+        steps:
+            -   name: "Checkout ${{ github.event.repository.name }}"
+                uses: "actions/checkout@v4"
+
+            -   name: "Login to Docker registry"
+                uses: "docker/login-action@v3"
+                with:
+                    registry: "${{ env.REGISTRY }}"
+                    username: "${{ github.actor }}"
+                    password: "${{ secrets.GITHUB_TOKEN }}"
+
+            -   name: "Run genres.json validator"
+                run: "docker run --rm -v ${{ github.workspace }}:/content
+                    ${{ env.REGISTRY }}/game-genres/content-validator:latest"
