@@ -104,6 +104,10 @@ jobs:
                   exit 1
                   fi
 
+            - name: "Check genres.json content"
+              run: "docker run --rm -v ${{ github.workspace }}:/content
+                    local/content-validator-pr:latest /content/genres.json"
+
             - name: "Run Dockerfile security scanner"
               run: "docker run --rm --group-add $(getent group docker | cut -d: -f3)
                     -v /var/run/docker.sock:/var/run/docker.sock
@@ -283,4 +287,4 @@ jobs:
 
             - name: "Run genres.json validator"
               run: "docker run --rm -v ${{ github.workspace }}:/content
-                    ${{ env.REGISTRY }}/game-genres/content-validator:latest"
+                    ${{ env.REGISTRY }}/game-genres/content-validator:latest /content/genres.json"
