@@ -82,6 +82,7 @@ jobs:
               with:
                   push: false
                   load: true
+                  context: "${{ github.workspace }}/content_validator"
 
                   # NOTE: using another name to don't allow docker to download image from the internet in the next step.
                   tags: "local/content-validator-pr:latest"
@@ -167,9 +168,9 @@ jobs:
               uses: "actions/checkout@v4"
 
             - name: "Build content_validator code"
-              run: | 
+              run: |
                   cd ${{ github.workspace }}/content_validator
-                  go build -ldflags \"-s -w\" -o content_validator ./cmd/content_validator/
+                  go build -ldflags "-s -w" -o content_validator ./cmd/content_validator/
 
             - name: "Run content_validator unit tests"
               run: |
@@ -249,7 +250,8 @@ jobs:
 
                   # NOTE: ignore `.idea` folder because it's generated. Ignore files with special names.
 
-                  if [[ "$path" != .idea* && "$path" != *Dockerfile && "$path" != *README.md && "$path" != *LICENSE ]]; then
+                  if [[ "$path" != .idea* && "$path" != *Dockerfile && "$path" != *README.md && "$path" != *LICENSE \
+                  && "$path" != *codeStyleConfig.xml ]]; then
                   docker run --rm ${{ env.REGISTRY }}/articola-tools/file-path-validator \
                   --naming-convention snake_case --path-to-validate "$path";
                   fi
@@ -269,16 +271,16 @@ jobs:
         # If this job takes more than 5 minutes, it means that something is wrong.
         timeout-minutes: 5
         steps:
-            -   name: "Checkout ${{ github.event.repository.name }}"
-                uses: "actions/checkout@v4"
+            - name: "Checkout ${{ github.event.repository.name }}"
+              uses: "actions/checkout@v4"
 
-            -   name: "Login to Docker registry"
-                uses: "docker/login-action@v3"
-                with:
-                    registry: "${{ env.REGISTRY }}"
-                    username: "${{ github.actor }}"
-                    password: "${{ secrets.GITHUB_TOKEN }}"
+            - name: "Login to Docker registry"
+              uses: "docker/login-action@v3"
+              with:
+                  registry: "${{ env.REGISTRY }}"
+                  username: "${{ github.actor }}"
+                  password: "${{ secrets.GITHUB_TOKEN }}"
 
-            -   name: "Run genres.json validator"
-                run: "docker run --rm -v ${{ github.workspace }}:/content
+            - name: "Run genres.json validator"
+              run: "docker run --rm -v ${{ github.workspace }}:/content
                     ${{ env.REGISTRY }}/game-genres/content-validator:latest"
