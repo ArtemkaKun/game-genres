@@ -47,9 +47,11 @@ jobs:
               id: "build-and-push"
               with:
                   # NOTE: setup of `context` is needed to force builder to use the `.dockerignore` file.
-                  context: "."
+                  context: "${{ github.workspace }}/content_validator"
                   push: true
+
                   tags: "${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest,
                          ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ env.CURRENT_COMMIT_SHORT_HASH }}"
+
                   cache-from: "type=registry,ref=${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest"
                   cache-to: "type=inline"
