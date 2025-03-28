@@ -1,636 +1,83 @@
 [
 	{
+		"name": "4x",
+		"altNames": [
+			"4x strategy"
+		]
+	},
+	{
 		"name": "action",
-		"alt_names": [
+		"altNames": [
 			"action game"
 		]
 	},
 	{
-		"name": "platform",
-		"alt_names": [
-			"platformer",
-			"climbing game"
-		]
-	},
-	{
-		"name": "shooter",
-		"alt_names": [
-			"shooting"
-		]
-	},
-	{
-		"name": "fighting",
-		"alt_names": [
-			"combat",
-			"fighting game",
-			"punch-kick"
-		]
-	},
-	{
-		"name": "FPS",
-		"alt_names": [
-			"first-person shooters"
-		]
-	},
-	{
-		"name": "TPS",
-		"alt_names": [
-			"third-person shooters"
-		]
-	},
-	{
-		"name": "hero shooter",
-		"alt_names": []
-	},
-	{
-		"name": "MOBA",
-		"alt_names": [
-			"multiplayer online battle arena"
-		]
-	},
-	{
-		"name": "STG",
-		"alt_names": [
-			"shmup",
-			"shoot 'em up",
-			"top-down shooter"
-		]
-	},
-	{
-		"name": "beat 'em up",
-		"alt_names": [
-			"brawler"
-		]
-	},
-	{
-		"name": "stealth",
-		"alt_names": [
-			"stealth game"
-		]
-	},
-	{
-		"name": "survival",
-		"alt_names": [
-			"survival game"
-		]
-	},
-	{
-		"name": "survival horror",
-		"alt_names": []
-	},
-	{
-		"name": "rhythm",
-		"alt_names": [
-			"rhythm game",
-			"rhythm action",
-			"music video game",
-			"music game"
-		]
-	},
-	{
-		"name": "battle royale",
-		"alt_names": [
-			"battle royale game"
-		]
-	},
-	{
 		"name": "action-adventure",
-		"alt_names": [
+		"altNames": [
 			"action-adventure game"
 		]
 	},
 	{
-		"name": "metroidvania",
-		"alt_names": []
-	},
-	{
 		"name": "adventure",
-		"alt_names": [
+		"altNames": [
 			"graphic adventure",
 			"adventure game"
 		]
 	},
 	{
-		"name": "text adventures",
-		"alt_names": [
-			"interactive fiction",
-			"interactive book"
-		]
-	},
-	{
-		"name": "point-and-click",
-		"alt_names": []
-	},
-	{
-		"name": "visual novel",
-		"alt_names": [
-			"VN"
-		]
-	},
-	{
-		"name": "interactive movie",
-		"alt_names": [
-			"interactive film"
-		]
-	},
-	{
-		"name": "real-time 3D adventure",
-		"alt_names": []
-	},
-	{
-		"name": "puzzle",
-		"alt_names": [
-			"puzzle video game"
-		]
-	},
-	{
-		"name": "casual",
-		"alt_names": []
-	},
-	{
-		"name": "tile-matching",
-		"alt_names": [
-			"tile-matching puzzle",
-			"matching puzzle"
-		]
-	},
-	{
-		"name": "breakout clone",
-		"alt_names": [
-			"block-breaking",
-			"ball-and-paddle"
-		]
-	},
-	{
-		"name": "logical",
-		"alt_names": [
-			"logical puzzle"
-		]
-	},
-	{
-		"name": "physics",
-		"alt_names": [
-			"physics puzzle"
-		]
-	},
-	{
-		"name": "programming",
-		"alt_names": [
-			"programming game"
-		]
-	},
-	{
-		"name": "puzzle-platform",
-		"alt_names": []
-	},
-	{
 		"name": "arcade",
-		"alt_names": []
+		"altNames": []
 	},
 	{
-		"name": "trial-and-error",
-		"alt_names": [
-			"exploration"
+		"name": "arena combat",
+		"altNames": []
+	},
+	{
+		"name": "arena shooter",
+		"altNames": [
+			"arena"
 		]
 	},
 	{
-		"name": "escape room",
-		"alt_names": [
-			"escape room video game",
-			"escape the room",
-			"room escape",
-			"escape game"
-		]
-	},
-	{
-		"name": "hidden object",
-		"alt_names": [
-			"hidden picture",
-			"hidden object puzzle adventure",
-			"HOPA"
-		]
-	},
-	{
-		"name": "reveal the picture",
-		"alt_names": []
-	},
-	{
-		"name": "tile-based",
-		"alt_names": []
-	},
-	{
-		"name": "traditional puzzle",
-		"alt_names": []
-	},
-	{
-		"name": "RPG",
-		"alt_names": [
-			"role-playing game",
-			"WRPG"
-		]
-	},
-	{
-		"name": "turn-based",
-		"alt_names": []
-	},
-	{
-		"name": "strategy",
-		"alt_names": []
-	},
-	{
-		"name": "ARPG",
-		"alt_names": [
-			"Action RPG",
+		"name": "arpg",
+		"altNames": [
+			"action rpg",
 			"action role-playing game"
 		]
 	},
 	{
-		"name": "CRPG",
-		"alt_names": [
-			"computer RPG",
-			"computer role-playing game"
-		]
-	},
-	{
-		"name": "tabletop",
-		"alt_names": [
-			"tabletop RPG",
-			"tabletop role-playing game",
-			"tabletop game"
-		]
-	},
-	{
-		"name": "MMORPG",
-		"alt_names": [
-			"massively multiplayer online role-playing game"
-		]
-	},
-	{
-		"name": "MUD",
-		"alt_names": [
-			"multi-user dungeon",
-			"multi-user dimension",
-			"multi-user domain"
-		]
-	},
-	{
-		"name": "roguelike",
-		"alt_names": []
-	},
-	{
-		"name": "tactical",
-		"alt_names": []
-	},
-	{
-		"name": "tactical RPG",
-		"alt_names": [
-			"strategy role-playing game",
-			"strategy RPG",
-			"simulation RPG",
-			"simulator role-playing game",
-			"SRPG"
-		]
-	},
-	{
-		"name": "sandbox",
-		"alt_names": [
-			"sandbox game"
-		]
-	},
-	{
-		"name": "sandbox RPG",
-		"alt_names": [
-			"sandbox role-playing game",
-			"open world RPG",
-			"open world role-playing game"
-		]
-	},
-	{
-		"name": "open world",
-		"alt_names": []
-	},
-	{
-		"name": "DRPG",
-		"alt_names": [
-			"dungeon RPG",
-			"first-person party-based RPG",
-			"blobber",
-			"dungeon crawl"
-		]
-	},
-	{
-		"name": "monster tamer",
-		"alt_names": [
-			"monster-taming game",
-			"monster collecting"
-		]
-	},
-	{
-		"name": "simulator",
-		"alt_names": [
-			"simulation",
-			"simulation video game",
-			"sim"
-		]
-	},
-	{
-		"name": "CMS",
-		"alt_names": [
-			"construction and management simulation",
-			"management sim",
-			"construction sim",
-			"building sim"
-		]
-	},
-	{
-		"name": "city-building game",
-		"alt_names": [
-			"town-building game",
-			"city builder"
-		]
-	},
-	{
-		"name": "government simulation game",
-		"alt_names": [
-			"political game",
-			"political simulation"
-		]
-	},
-	{
-		"name": "life simulation",
-		"alt_names": [
-			"artificial life game",
-			"god game",
-			"god simulator"
-		]
-	},
-	{
-		"name": "pet-raising simulation",
-		"alt_names": [
-			"virtual pet",
-			"digital pet",
-			"raising sim"
-		]
-	},
-	{
-		"name": "social simulation game",
-		"alt_names": [
-			"dating sim",
-			"dating simulation game"
-		]
-	},
-	{
-		"name": "vehicle simulation",
-		"alt_names": [
-			"sim racing"
-		]
-	},
-	{
-		"name": "flight simulation",
-		"alt_names": [
-			"combat flight simulator",
-			"air Combat"
-		]
-	},
-	{
-		"name": "racing",
-		"alt_names": [
-			"driving"
-		]
-	},
-	{
-		"name": "space flight simulator game",
-		"alt_names": []
-	},
-	{
-		"name": "train simulator",
-		"alt_names": []
-	},
-	{
-		"name": "vehicular combat",
-		"alt_names": [
-			"car combat"
-		]
-	},
-	{
-		"name": "4X",
-		"alt_names": [
-			"4X strategy"
+		"name": "art",
+		"altNames": [
+			"art game"
 		]
 	},
 	{
 		"name": "artillery",
-		"alt_names": [
+		"altNames": [
 			"artillery game"
 		]
 	},
 	{
 		"name": "auto battler",
-		"alt_names": [
+		"altNames": [
 			"auto chess"
 		]
 	},
 	{
-		"name": "RTS",
-		"alt_names": [
-			"real-time strategy"
+		"name": "battle royale",
+		"altNames": [
+			"battle royale game"
 		]
 	},
 	{
-		"name": "RTT",
-		"alt_names": [
-			"real-time tactics",
-			"fixed-unit real-time strategy"
-		]
-	},
-	{
-		"name": "TD",
-		"alt_names": [
-			"tower defence"
-		]
-	},
-	{
-		"name": "TBS",
-		"alt_names": [
-			"turn-based strategy"
-		]
-	},
-	{
-		"name": "TBT",
-		"alt_names": [
-			"turn-based tactics"
-		]
-	},
-	{
-		"name": "wargame",
-		"alt_names": [
-			"computer wargame"
-		]
-	},
-	{
-		"name": "sports",
-		"alt_names": [
-			"sport"
-		]
-	},
-	{
-		"name": "competitive",
-		"alt_names": []
-	},
-	{
-		"name": "sports-based fighting",
-		"alt_names": [
-			"pro wrestling"
-		]
-	},
-	{
-		"name": "MMO",
-		"alt_names": [
-			"massively multiplayer online game",
-			"MMOG"
-		]
-	},
-	{
-		"name": "MMOFPS",
-		"alt_names": [
-			"massively multiplayer online first-person shooter"
-		]
-	},
-	{
-		"name": "MMORTS",
-		"alt_names": [
-			"massively multiplayer online real-time strategy game"
-		]
-	},
-	{
-		"name": "MMOTBS",
-		"alt_names": [
-			"massively multiplayer online turn-based strategy games"
-		]
-	},
-	{
-		"name": "card game",
-		"alt_names": [
-			"board game"
-		]
-	},
-	{
-		"name": "parental sim",
-		"alt_names": []
-	},
-	{
-		"name": "casino game",
-		"alt_names": [
-			"gambling"
-		]
-	},
-	{
-		"name": "DCCG",
-		"alt_names": [
-			"digital collectible card game",
-			"CCG",
-			"TCG",
-			"collectible card game",
-			"trading card game"
-		]
-	},
-	{
-		"name": "gacha",
-		"alt_names": []
-	},
-	{
-		"name": "horror",
-		"alt_names": []
-	},
-	{
-		"name": "idle",
-		"alt_names": [
-			"incremental game",
-			"clicker",
-			"tap game"
-		]
-	},
-	{
-		"name": "party",
-		"alt_names": [
-			"party game",
-			"party video game"
-		]
-	},
-	{
-		"name": "photography",
-		"alt_names": [
-			"photography game",
-			"photography video game"
-		]
-	},
-	{
-		"name": "social deduction",
-		"alt_names": [
-			"social deduction game"
-		]
-	},
-	{
-		"name": "trivia",
-		"alt_names": [
-			"trivia game",
-			"quiz"
-		]
-	},
-	{
-		"name": "typing",
-		"alt_names": [
-			"typing game"
-		]
-	},
-	{
-		"name": "art",
-		"alt_names": [
-			"art game"
-		]
-	},
-	{
-		"name": "christian",
-		"alt_names": [
-			"christian game"
-		]
-	},
-	{
-		"name": "educational",
-		"alt_names": [
-			"educational game",
-			"edutainment"
-		]
-	},
-	{
-		"name": "esports",
-		"alt_names": [
-			"esport"
-		]
-	},
-	{
-		"name": "exergame",
-		"alt_names": [
-			"fitness",
-			"fitness game",
-			"gamercise"
-		]
-	},
-	{
-		"name": "serious game",
-		"alt_names": [
-			"applied game"
-		]
-	},
-	{
-		"name": "arena shooter",
-		"alt_names": [
-			"arena"
+		"name": "beat 'em up",
+		"altNames": [
+			"brawler"
 		]
 	},
 	{
 		"name": "bishōjo",
-		"alt_names": [
+		"altNames": [
 			"bishojo",
 			"bishojo game",
 			"bishōjo game",
@@ -639,79 +86,216 @@
 	},
 	{
 		"name": "blockchain",
-		"alt_names": [
+		"altNames": [
 			"blockchain game"
 		]
 	},
 	{
+		"name": "breakout clone",
+		"altNames": [
+			"block-breaking",
+			"ball-and-paddle"
+		]
+	},
+	{
 		"name": "bullet hell",
-		"alt_names": [
+		"altNames": [
 			"manic shooter"
 		]
 	},
 	{
-		"name": "tycoon",
-		"alt_names": [
-			"business simulation",
-			"business simulation game",
-			"tycoon game",
-			"economic simulation game"
+		"name": "card game",
+		"altNames": [
+			"board game"
 		]
 	},
 	{
+		"name": "casino game",
+		"altNames": [
+			"gambling"
+		]
+	},
+	{
+		"name": "casual",
+		"altNames": []
+	},
+	{
+		"name": "chess",
+		"altNames": []
+	},
+	{
+		"name": "christian",
+		"altNames": [
+			"christian game"
+		]
+	},
+	{
+		"name": "city-building game",
+		"altNames": [
+			"town-building game",
+			"city builder"
+		]
+	},
+	{
+		"name": "cms",
+		"altNames": [
+			"construction and management simulation",
+			"management sim",
+			"construction sim",
+			"building sim"
+		]
+	},
+	{
+		"name": "collect-a-thon platform",
+		"altNames": []
+	},
+	{
+		"name": "combat",
+		"altNames": [
+			"combat game"
+		]
+	},
+	{
+		"name": "competitive",
+		"altNames": []
+	},
+	{
 		"name": "cozy",
-		"alt_names": [
+		"altNames": [
 			"cozy game"
 		]
 	},
 	{
+		"name": "crpg",
+		"altNames": [
+			"computer rpg",
+			"computer role-playing game"
+		]
+	},
+	{
+		"name": "dccg",
+		"altNames": [
+			"digital collectible card game",
+			"ccg",
+			"tcg",
+			"collectible card game",
+			"trading card game"
+		]
+	},
+	{
 		"name": "digital tabletop",
-		"alt_names": [
+		"altNames": [
 			"digital tabletop game"
 		]
 	},
 	{
+		"name": "drpg",
+		"altNames": [
+			"dungeon rpg",
+			"first-person party-based rpg",
+			"blobber",
+			"dungeon crawl"
+		]
+	},
+	{
+		"name": "educational",
+		"altNames": [
+			"educational game",
+			"edutainment"
+		]
+	},
+	{
 		"name": "endless runner",
-		"alt_names": [
+		"altNames": [
 			"infinite runner"
 		]
 	},
 	{
 		"name": "eroge",
-		"alt_names": [
+		"altNames": [
 			"h-game"
 		]
 	},
 	{
+		"name": "escape room",
+		"altNames": [
+			"escape room video game",
+			"escape the room",
+			"room escape",
+			"escape game"
+		]
+	},
+	{
+		"name": "esports",
+		"altNames": [
+			"esport"
+		]
+	},
+	{
+		"name": "exergame",
+		"altNames": [
+			"fitness",
+			"fitness game",
+			"gamercise"
+		]
+	},
+	{
 		"name": "falling-sand",
-		"alt_names": [
+		"altNames": [
 			"falling-sand game",
-			"falling block puzzle "
+			"falling block puzzle"
 		]
 	},
 	{
 		"name": "farm life",
-		"alt_names": [
+		"altNames": [
 			"farm life sim"
 		]
 	},
 	{
+		"name": "fighting",
+		"altNames": [
+			"fighting game",
+			"punch-kick"
+		]
+	},
+	{
 		"name": "fishing",
-		"alt_names": [
+		"altNames": [
 			"fishing video game"
 		]
 	},
 	{
-		"name": "Girls' video games",
-		"alt_names": []
+		"name": "flight simulation",
+		"altNames": [
+			"combat flight simulator",
+			"air combat"
+		]
 	},
 	{
-		"name": "Girls' video games",
-		"alt_names": []
+		"name": "fps",
+		"altNames": [
+			"first-person shooters"
+		]
 	},
 	{
-		"name": "GSG",
-		"alt_names": [
+		"name": "gacha",
+		"altNames": []
+	},
+	{
+		"name": "girls' video games",
+		"altNames": []
+	},
+	{
+		"name": "government simulation game",
+		"altNames": [
+			"political game",
+			"political simulation"
+		]
+	},
+	{
+		"name": "gsg",
+		"altNames": [
 			"grand strategy game",
 			"grand strategy wargame",
 			"grand strategy"
@@ -719,193 +303,600 @@
 	},
 	{
 		"name": "hack and slash",
-		"alt_names": [
+		"altNames": [
 			"hack and slay",
 			"slash 'em up",
 			"hack-n-slash"
 		]
 	},
 	{
+		"name": "hardcore",
+		"altNames": [
+			"masocore"
+		]
+	},
+	{
+		"name": "hero shooter",
+		"altNames": []
+	},
+	{
+		"name": "hidden object",
+		"altNames": [
+			"hidden picture",
+			"hidden object puzzle adventure",
+			"hopa"
+		]
+	},
+	{
+		"name": "horror",
+		"altNames": []
+	},
+	{
+		"name": "hunting",
+		"altNames": []
+	},
+	{
 		"name": "hypercasual",
-		"alt_names": [
+		"altNames": [
 			"hypercasual game"
 		]
 	},
 	{
+		"name": "idle",
+		"altNames": [
+			"incremental game",
+			"clicker",
+			"tap game"
+		]
+	},
+	{
 		"name": "immersive sim",
-		"alt_names": [
+		"altNames": [
 			"immersive",
 			"immersive simulation"
 		]
 	},
 	{
+		"name": "interactive movie",
+		"altNames": [
+			"interactive film"
+		]
+	},
+	{
+		"name": "japanese-style adventure",
+		"altNames": []
+	},
+	{
+		"name": "jrpg",
+		"altNames": [
+			"japanese-style rpg",
+			"japanese rpg"
+		]
+	},
+	{
 		"name": "kart racing game",
-		"alt_names": [
+		"altNames": [
 			"cart racing game",
 			"go-kart racing game"
 		]
 	},
 	{
-		"name": "looter shooter",
-		"alt_names": []
-	},
-	{
-		"name": "hardcore",
-		"alt_names": [
-			"masocore"
-		]
-	},
-	{
-		"name": "newsgame",
-		"alt_names": []
-	},
-	{
-		"name": "otome",
-		"alt_names": []
-	},
-	{
-		"name": "pinball",
-		"alt_names": [
-			"pinball video game"
-		]
-	},
-	{
-		"name": "platform fighter",
-		"alt_names": [
-			"arena brawler"
-		]
-	},
-	{
-		"name": "rail shooter",
-		"alt_names": [
-			"on-rails shooter"
-		]
-	},
-	{
-		"name": "roguelike deck-building game",
-		"alt_names": []
-	},
-	{
-		"name": "roguelike deck-building game",
-		"alt_names": []
-	},
-	{
-		"name": "soulslike",
-		"alt_names": []
-	},
-	{
-		"name": "tactical shooter",
-		"alt_names": []
-	},
-	{
-		"name": "time management",
-		"alt_names": [
-			"time management game"
-		]
-	},
-	{
-		"name": "side-scroller",
-		"alt_names": [
-			"side-scrolling video game"
-		]
-	},
-	{
-		"name": "turn-based MMORPG",
-		"alt_names": []
-	},
-	{
-		"name": "twin-stick shooter",
-		"alt_names": []
-	},
-	{
-		"name": "vertical scroller",
-		"alt_names": [
-			"vertically scrolling video game"
-		]
-	},
-	{
-		"name": "walking sim",
-		"alt_names": [
-			"walking simulator"
-		]
-	},
-	{
-		"name": "chess",
-		"alt_names": []
-	},
-	{
-		"name": "hunting",
-		"alt_names": []
-	},
-	{
-		"name": "JRPG",
-		"alt_names": [
-			"japanese-style RPG",
-			"japanese RPG"
-		]
-	},
-	{
-		"name": "japanese-style adventure",
-		"alt_names": []
-	},
-	{
-		"name": "mini-game",
-		"alt_names": []
-	},
-	{
-		"name": "paddle",
-		"alt_names": [
-			"pong"
-		]
-	},
-	{
-		"name": "word construction",
-		"alt_names": []
-	},
-	{
-		"name": "arena combat",
-		"alt_names": []
-	},
-	{
-		"name": "collect-a-thon platform",
-		"alt_names": []
-	},
-	{
-		"name": "combat",
-		"alt_names": [
-			"combat game"
-		]
-	},
-	{
 		"name": "kusoge",
-		"alt_names": []
+		"altNames": []
+	},
+	{
+		"name": "life simulation",
+		"altNames": [
+			"artificial life game",
+			"god game",
+			"god simulator"
+		]
 	},
 	{
 		"name": "light gun",
-		"alt_names": []
+		"altNames": []
+	},
+	{
+		"name": "logical",
+		"altNames": [
+			"logical puzzle"
+		]
+	},
+	{
+		"name": "looter shooter",
+		"altNames": []
 	},
 	{
 		"name": "maze",
-		"alt_names": []
+		"altNames": []
 	},
 	{
 		"name": "mech combat",
-		"alt_names": [
+		"altNames": [
 			"mech"
 		]
 	},
 	{
+		"name": "metroidvania",
+		"altNames": []
+	},
+	{
 		"name": "military",
-		"alt_names": [
+		"altNames": [
 			"military sim"
 		]
 	},
 	{
+		"name": "mini-game",
+		"altNames": []
+	},
+	{
+		"name": "mmo",
+		"altNames": [
+			"massively multiplayer online game",
+			"mmog"
+		]
+	},
+	{
+		"name": "mmofps",
+		"altNames": [
+			"massively multiplayer online first-person shooter"
+		]
+	},
+	{
+		"name": "mmorpg",
+		"altNames": [
+			"massively multiplayer online role-playing game"
+		]
+	},
+	{
+		"name": "mmorts",
+		"altNames": [
+			"massively multiplayer online real-time strategy game"
+		]
+	},
+	{
+		"name": "mmotbs",
+		"altNames": [
+			"massively multiplayer online turn-based strategy games"
+		]
+	},
+	{
+		"name": "moba",
+		"altNames": [
+			"multiplayer online battle arena"
+		]
+	},
+	{
+		"name": "monster tamer",
+		"altNames": [
+			"monster-taming game",
+			"monster collecting"
+		]
+	},
+	{
+		"name": "mud",
+		"altNames": [
+			"multi-user dungeon",
+			"multi-user dimension",
+			"multi-user domain"
+		]
+	},
+	{
 		"name": "musou",
-		"alt_names": []
+		"altNames": []
+	},
+	{
+		"name": "newsgame",
+		"altNames": []
+	},
+	{
+		"name": "open world",
+		"altNames": []
+	},
+	{
+		"name": "otome",
+		"altNames": []
+	},
+	{
+		"name": "paddle",
+		"altNames": [
+			"pong"
+		]
+	},
+	{
+		"name": "parental sim",
+		"altNames": []
+	},
+	{
+		"name": "party",
+		"altNames": [
+			"party game",
+			"party video game"
+		]
+	},
+	{
+		"name": "pet-raising simulation",
+		"altNames": [
+			"virtual pet",
+			"digital pet",
+			"raising sim"
+		]
+	},
+	{
+		"name": "photography",
+		"altNames": [
+			"photography game",
+			"photography video game"
+		]
+	},
+	{
+		"name": "physics",
+		"altNames": [
+			"physics puzzle"
+		]
+	},
+	{
+		"name": "pinball",
+		"altNames": [
+			"pinball video game"
+		]
+	},
+	{
+		"name": "platform",
+		"altNames": [
+			"platformer",
+			"climbing game"
+		]
+	},
+	{
+		"name": "platform fighter",
+		"altNames": [
+			"arena brawler"
+		]
+	},
+	{
+		"name": "point-and-click",
+		"altNames": []
+	},
+	{
+		"name": "programming",
+		"altNames": [
+			"programming game"
+		]
+	},
+	{
+		"name": "puzzle",
+		"altNames": [
+			"puzzle video game"
+		]
+	},
+	{
+		"name": "puzzle-platform",
+		"altNames": []
+	},
+	{
+		"name": "racing",
+		"altNames": [
+			"driving"
+		]
+	},
+	{
+		"name": "rail shooter",
+		"altNames": [
+			"on-rails shooter"
+		]
+	},
+	{
+		"name": "real-time 3d adventure",
+		"altNames": []
+	},
+	{
+		"name": "reveal the picture",
+		"altNames": []
+	},
+	{
+		"name": "rhythm",
+		"altNames": [
+			"rhythm game",
+			"rhythm action",
+			"music video game",
+			"music game"
+		]
+	},
+	{
+		"name": "roguelike",
+		"altNames": []
+	},
+	{
+		"name": "roguelike deck-building game",
+		"altNames": []
+	},
+	{
+		"name": "rpg",
+		"altNames": [
+			"role-playing game",
+			"wrpg"
+		]
+	},
+	{
+		"name": "rts",
+		"altNames": [
+			"real-time strategy"
+		]
+	},
+	{
+		"name": "rtt",
+		"altNames": [
+			"real-time tactics",
+			"fixed-unit real-time strategy"
+		]
 	},
 	{
 		"name": "run-n-gun",
-		"alt_names": []
+		"altNames": []
+	},
+	{
+		"name": "sandbox",
+		"altNames": [
+			"sandbox game"
+		]
+	},
+	{
+		"name": "sandbox rpg",
+		"altNames": [
+			"sandbox role-playing game",
+			"open world rpg",
+			"open world role-playing game"
+		]
+	},
+	{
+		"name": "serious game",
+		"altNames": [
+			"applied game"
+		]
+	},
+	{
+		"name": "shooter",
+		"altNames": [
+			"shooting"
+		]
+	},
+	{
+		"name": "side-scroller",
+		"altNames": [
+			"side-scrolling video game"
+		]
+	},
+	{
+		"name": "simulator",
+		"altNames": [
+			"simulation",
+			"simulation video game",
+			"sim"
+		]
+	},
+	{
+		"name": "social deduction",
+		"altNames": [
+			"social deduction game"
+		]
+	},
+	{
+		"name": "social simulation game",
+		"altNames": [
+			"dating sim",
+			"dating simulation game"
+		]
+	},
+	{
+		"name": "soulslike",
+		"altNames": []
+	},
+	{
+		"name": "space flight simulator game",
+		"altNames": []
+	},
+	{
+		"name": "sports",
+		"altNames": [
+			"sport"
+		]
+	},
+	{
+		"name": "sports-based fighting",
+		"altNames": [
+			"pro wrestling"
+		]
+	},
+	{
+		"name": "stealth",
+		"altNames": [
+			"stealth game"
+		]
+	},
+	{
+		"name": "stg",
+		"altNames": [
+			"shmup",
+			"shoot 'em up",
+			"top-down shooter"
+		]
+	},
+	{
+		"name": "strategy",
+		"altNames": []
+	},
+	{
+		"name": "survival",
+		"altNames": [
+			"survival game"
+		]
+	},
+	{
+		"name": "survival horror",
+		"altNames": []
+	},
+	{
+		"name": "tabletop",
+		"altNames": [
+			"tabletop rpg",
+			"tabletop role-playing game",
+			"tabletop game"
+		]
+	},
+	{
+		"name": "tactical",
+		"altNames": []
+	},
+	{
+		"name": "tactical rpg",
+		"altNames": [
+			"strategy role-playing game",
+			"strategy rpg",
+			"simulation rpg",
+			"simulator role-playing game",
+			"srpg"
+		]
+	},
+	{
+		"name": "tactical shooter",
+		"altNames": []
+	},
+	{
+		"name": "tbs",
+		"altNames": [
+			"turn-based strategy"
+		]
+	},
+	{
+		"name": "tbt",
+		"altNames": [
+			"turn-based tactics"
+		]
+	},
+	{
+		"name": "td",
+		"altNames": [
+			"tower defence"
+		]
+	},
+	{
+		"name": "text adventures",
+		"altNames": [
+			"interactive fiction",
+			"interactive book"
+		]
+	},
+	{
+		"name": "tile-based",
+		"altNames": []
+	},
+	{
+		"name": "tile-matching",
+		"altNames": [
+			"tile-matching puzzle",
+			"matching puzzle"
+		]
+	},
+	{
+		"name": "time management",
+		"altNames": [
+			"time management game"
+		]
+	},
+	{
+		"name": "tps",
+		"altNames": [
+			"third-person shooters"
+		]
+	},
+	{
+		"name": "traditional puzzle",
+		"altNames": []
+	},
+	{
+		"name": "train simulator",
+		"altNames": []
+	},
+	{
+		"name": "trial-and-error",
+		"altNames": [
+			"exploration"
+		]
+	},
+	{
+		"name": "trivia",
+		"altNames": [
+			"trivia game",
+			"quiz"
+		]
+	},
+	{
+		"name": "turn-based",
+		"altNames": []
+	},
+	{
+		"name": "turn-based mmorpg",
+		"altNames": []
+	},
+	{
+		"name": "twin-stick shooter",
+		"altNames": []
+	},
+	{
+		"name": "tycoon",
+		"altNames": [
+			"business simulation",
+			"business simulation game",
+			"tycoon game",
+			"economic simulation game"
+		]
+	},
+	{
+		"name": "typing",
+		"altNames": [
+			"typing game"
+		]
+	},
+	{
+		"name": "vehicle simulation",
+		"altNames": [
+			"sim racing"
+		]
+	},
+	{
+		"name": "vehicular combat",
+		"altNames": [
+			"car combat"
+		]
+	},
+	{
+		"name": "vertical scroller",
+		"altNames": [
+			"vertically scrolling video game"
+		]
+	},
+	{
+		"name": "visual novel",
+		"altNames": [
+			"vn"
+		]
+	},
+	{
+		"name": "walking sim",
+		"altNames": [
+			"walking simulator"
+		]
+	},
+	{
+		"name": "wargame",
+		"altNames": [
+			"computer wargame"
+		]
+	},
+	{
+		"name": "word construction",
+		"altNames": []
 	}
 ]
